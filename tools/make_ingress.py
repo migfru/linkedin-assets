@@ -139,7 +139,7 @@ def s9():
         "<li style='font-size:29px;padding:13px 0 13px 40px'><b>Gateway API:</b> guía para usuarios de ingress-nginx y lista de implementaciones</li>"
         "<li style='font-size:29px;padding:13px 0 13px 40px'><b>Documentación:</b> Istio, NGINX Gateway Fabric, Cilium, GKE, AWS Load Balancer Controller, Microsoft Learn (AKS)</li>"
         "<li style='font-size:29px;padding:13px 0 13px 40px'><b>Casos:</b> CNCF (16 abr y 25 may 2026), Zapier (12 dic 2025), Qovery (feb y oct 2026)</li></ul>"
-        "<p class='src' style='font-size:27px'>Los enlaces están en el primer comentario.</p>"
+        "<p class='src' style='font-size:27px'>Los enlaces completos están en el texto del post.</p>"
         "<p style='font-family:Lora,serif;font-weight:700;font-size:62px;line-height:1.15;margin-top:36px;max-width:560px'>¿Qué elegiste <em style='color:#0F766E'>y por qué?</em></p></div>"
         f"<img class='av' src='file://{AV}' width='250' style='bottom:165px;right:60px'>{foot(9)}")
 
