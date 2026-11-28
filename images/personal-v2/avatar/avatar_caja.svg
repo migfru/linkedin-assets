@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <defs>
+    <pattern id="corr" width="8" height="8" patternUnits="userSpaceOnUse">
+      <rect width="8" height="8" fill="none"/>
+      <rect y="5" width="8" height="1.6" fill="#000" opacity="0.07"/>
+    </pattern>
+    <pattern id="corrv" width="8" height="8" patternUnits="userSpaceOnUse">
+      <rect x="5" width="1.6" height="8" fill="#000" opacity="0.08"/>
+    </pattern>
+    <filter id="sombra" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="10" stdDeviation="9" flood-color="#3b2a14" flood-opacity="0.28"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#sombra)">
+    <!-- TORSO -->
+    <polygon points="150,585 210,558 710,558 650,585" fill="#D9B887"/>
+    <polygon points="650,585 710,558 710,800 650,800" fill="#A27A4A"/>
+    <rect x="150" y="585" width="500" height="215" fill="#C49C69"/>
+    <rect x="150" y="585" width="500" height="215" fill="url(#corr)"/>
+    <polygon points="650,585 710,558 710,800 650,800" fill="url(#corrv)"/>
+    <!-- cinta transparente verde en el torso -->
+    <rect x="372" y="585" width="56" height="215" fill="#0F766E" opacity="0.92"/>
+    <polygon points="372,585 428,585 488,558 432,558" fill="#0F766E" opacity="0.85"/>
+    <!-- etiqueta de envio -->
+    <g transform="rotate(-3 540 690)">
+      <rect x="455" y="640" width="150" height="104" rx="4" fill="#F5F1E8" stroke="#8E6A3B" stroke-width="2"/>
+      <text x="470" y="672" font-family="DM Sans, sans-serif" font-weight="700" font-size="20" fill="#1F2933">M. FRUTO</text>
+      <text x="470" y="694" font-family="DM Sans, sans-serif" font-size="13" fill="#52606D">migfru · BOGOTA</text>
+      <g fill="#1F2933">
+        <rect x="470" y="704" width="3" height="28"/><rect x="477" y="704" width="6" height="28"/>
+        <rect x="487" y="704" width="2" height="28"/><rect x="493" y="704" width="5" height="28"/>
+        <rect x="502" y="704" width="3" height="28"/><rect x="509" y="704" width="7" height="28"/>
+        <rect x="520" y="704" width="2" height="28"/><rect x="526" y="704" width="4" height="28"/>
+        <rect x="534" y="704" width="6" height="28"/><rect x="544" y="704" width="2" height="28"/>
+        <rect x="550" y="704" width="5" height="28"/><rect x="559" y="704" width="3" height="28"/>
+        <rect x="566" y="704" width="6" height="28"/><rect x="576" y="704" width="3" height="28"/>
+      </g>
+    </g>
+    <!-- remaches / marcas de pliegue -->
+    <rect x="150" y="585" width="500" height="6" fill="#000" opacity="0.10"/>
+
+    <!-- CUELLO (caja pequena) -->
+    <rect x="335" y="520" width="130" height="70" fill="#9A7243"/>
+    <rect x="335" y="520" width="130" height="70" fill="url(#corr)"/>
+    <polygon points="465,520 500,505 500,570 465,590" fill="#7F5C32"/>
+
+    <!-- CABEZA (caja 3D) -->
+    <polygon points="210,140 270,108 650,108 590,140" fill="#DDBC8B"/>
+    <polygon points="590,140 650,108 650,500 590,540" fill="#A98150"/>
+    <rect x="210" y="140" width="380" height="400" fill="#CDA471"/>
+    <rect x="210" y="140" width="380" height="400" fill="url(#corr)"/>
+    <polygon points="590,140 650,108 650,500 590,540" fill="url(#corrv)"/>
+    <!-- cinta de embalaje en la cabeza -->
+    <rect x="372" y="140" width="56" height="130" fill="#0F766E" opacity="0.92"/>
+    <polygon points="372,140 428,140 488,108 432,108" fill="#0F766E" opacity="0.85"/>
+    <!-- solapas abiertas arriba, como pelo -->
+    <polygon points="210,140 270,108 330,60 262,92" fill="#B88F5C"/>
+    <polygon points="590,140 650,108 600,64 548,96" fill="#B88F5C"/>
+    <line x1="210" y1="140" x2="590" y2="140" stroke="#000" stroke-opacity="0.12" stroke-width="3"/>
+
+    <!-- OREJA -->
+    <rect x="180" y="300" width="32" height="86" rx="4" fill="#B58B58"/>
+    <rect x="180" y="300" width="32" height="86" rx="4" fill="url(#corr)"/>
+
+    <!-- CEJAS: retazos de carton corrugado -->
+    <g transform="rotate(-7 322 262)">
+      <polygon points="258,252 384,248 388,272 262,278 255,266" fill="#7B5630"/>
+      <polygon points="258,252 384,248 388,272 262,278 255,266" fill="url(#corr)"/>
+      <rect x="262" y="256" width="118" height="3" fill="#fff" opacity="0.14"/>
+    </g>
+    <g transform="rotate(7 478 262)">
+      <polygon points="416,248 542,252 546,266 538,278 412,272" fill="#7B5630"/>
+      <polygon points="416,248 542,252 546,266 538,278 412,272" fill="url(#corr)"/>
+      <rect x="420" y="256" width="118" height="3" fill="#fff" opacity="0.14"/>
+    </g>
+
+    <!-- OJOS: huecos recortados en el carton -->
+    <rect x="292" y="304" width="68" height="50" rx="8" fill="#2B1D10"/>
+    <rect x="440" y="304" width="68" height="50" rx="8" fill="#2B1D10"/>
+    <rect x="316" y="316" width="22" height="22" rx="4" fill="#F5F1E8"/>
+    <rect x="464" y="316" width="22" height="22" rx="4" fill="#F5F1E8"/>
+    <rect x="292" y="304" width="68" height="8" rx="4" fill="#000" opacity="0.25"/>
+    <rect x="440" y="304" width="68" height="8" rx="4" fill="#000" opacity="0.25"/>
+
+    <!-- NARIZ: cubito de carton -->
+    <polygon points="380,376 400,366 436,366 416,376" fill="#E3C79B"/>
+    <polygon points="416,376 436,366 436,418 416,430" fill="#8E6A3B"/>
+    <rect x="380" y="376" width="36" height="54" fill="#C79F6B"/>
+    <rect x="380" y="376" width="36" height="54" fill="url(#corr)"/>
+
+    <!-- BOCA: tira de carton con sonrisa -->
+    <path d="M318 470 Q400 520 482 470" fill="none" stroke="#2B1D10" stroke-width="16" stroke-linecap="round"/>
+    <path d="M326 462 Q400 505 474 462" fill="none" stroke="#8E6A3B" stroke-width="5" stroke-linecap="round" opacity="0.0"/>
+
+    <!-- pequenos retazos sueltos sobre la mejilla -->
+    <rect x="236" y="430" width="34" height="14" fill="#8E6A3B" transform="rotate(-18 253 437)"/>
+    <rect x="530" y="438" width="26" height="12" fill="#B58B58" transform="rotate(14 543 444)"/>
+  </g>
+</svg>
